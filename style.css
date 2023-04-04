@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Red Hat Display", sans-serif;
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+}
+
+span,
+a {
+  display: block;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  margin-top: 15rem;
+}
+
+.section {
+  background-color: orangered;
+  max-width: 35rem;
+}
+
+.hero--img {
+  width: 35rem;
+}
